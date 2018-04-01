@@ -9,7 +9,7 @@ def load_library(emoticons)
   library_hash['get_emoticon'] = {}
   library_hash['get_meaning']
 
-
+binding.pry
   return emoticons
 
 end
