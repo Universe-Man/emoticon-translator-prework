@@ -16,6 +16,7 @@ def load_library(emoticons)
 end
 
 def get_japanese_emoticon(emoticons, emoticon)
+  load_library(emoticons)
   if "O:)"
   end
   # code goes here
