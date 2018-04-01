@@ -8,6 +8,7 @@ end
 
 def get_japanese_emoticon
   if "O:)"
+  end
   # code goes here
 end
 
