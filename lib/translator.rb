@@ -3,7 +3,12 @@ emoticons = YAML.load_file("./lib/emoticons.yml")
 # require modules here
 
 def load_library(emoticons)
-  binding.pry
+    binding.pry
+  library_hash = {}
+  library_hash['get_meaning'] = {}
+  library_hash['get_emoticon'] = {}
+  library_hash['get_meaning']
+
 
   return emoticons
 
