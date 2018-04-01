@@ -9,10 +9,9 @@ def load_library(emoticons)
   library_hash = {}
   library_hash['get_meaning'] = {}
   library_hash['get_emoticon'] = {}
-  library_hash['get_meaning']
-
-#binding.pry
-
+  library_hash['get_meaning'][#Japanese emoticons] = meaning (angel, bored, etc.)
+  library_hash['get_emoticon'][#English emoticons] = Japanese emoticons
+binding.pry
   library_hash
 end
 
