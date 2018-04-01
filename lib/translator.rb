@@ -15,7 +15,7 @@ def load_library(emoticons)
   library_hash
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(emoticons, emoticon)
   if "O:)"
   end
   # code goes here
