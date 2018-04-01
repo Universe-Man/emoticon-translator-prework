@@ -1,7 +1,7 @@
 require "yaml"
 emoticons = YAML.load_file("./lib/emoticons.yml")
 # require modules here
-
+binding.pry
 def load_library(emoticons)
     binding.pry
   library_hash = {}
