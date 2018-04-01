@@ -12,8 +12,8 @@ def load_library(emoticons)
   library_hash['get_meaning']
 
 binding.pry
-  return emoticons
 
+  library_hash
 end
 
 def get_japanese_emoticon
